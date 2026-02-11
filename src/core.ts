@@ -9,6 +9,10 @@ export function playPCMData(audioData: Uint8Array) {
   return ExpoTwoWayAudioModule.playPCMData(audioData);
 }
 
+export function stopPlayback() {
+  return ExpoTwoWayAudioModule.stopPlayback();
+}
+
 export function bypassVoiceProcessing(bypass: boolean) {
   return ExpoTwoWayAudioModule.bypassVoiceProcessing(bypass);
 }
